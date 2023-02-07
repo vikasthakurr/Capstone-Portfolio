@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+
+.work-container {
+  background: #e4f26c;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  font-family: "Dancing Script", cursive;
+}
+
+.heading {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+.im {
+  height: 200px;
+  width: 310px;
+}
+.work {
+  display: inline-block;
+  margin: 30px;
+  position: relative;
+  margin-top: 5%;
+}
+.card {
+  border: 2px solid #000;
+  width: 310px;
+  height: auto;
+  box-shadow: 0px 8px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateX(15px);
+}
+
+.title-1 {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.project-btn {
+  padding: 9px 30px;
+  color: #000;
+  border: 1px solid #000;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 104%;
+  left: 25%;
+  cursor: pointer;
+}
+.project-btn:hover {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border-radius: 7px;
+}
+.text p {
+  text-align: center;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+
+.hero {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+}
+a {
+  color: #000;
+}
+.hero {
+  background: rgb(228, 242, 108);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+  word-spacing: 6px;
+  overflow-wrap: break-word;
+}
+.know {
+  position: absolute;
+  top: 62%;
+  left: 40%;
+  font-size: 1.2rem;
+  padding: 6px 25px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  
+  
+}
+.know:hover{
+cursor: pointer;
+background:#000;
+color: #fff;
+}
+.navlinks {
+  display: grid;
+  position: absolute;
+  top: 31%;
+  left: 94%;
+  gap: 60px;
+}
+.navlinks i {
+  font-size: 2rem;
+}
+.navlinks i:hover {
+  cursor: pointer;
+  transform: translate3d(-5px, 6px, 10px);
+}
+
+.bottom-links {
+  position: absolute;
+  top: 31%;
+  left: 3%;
+  gap: 70px;
+  display: grid;
+  /* font-size: 1.5rem; */
+  position: fixed;
+}
+.bottom-links i:hover {
+  cursor: pointer;
+  transform: translateY(-9px);
+}
+
+/* animation start here */
+.change_content:after {
+  content: "";
+  animation: changetext 5s infinite linear;
+  color: #000;
+}
+@keyframes changetext {
+  0% {
+    content: "Vikas Thakur";
+  }
+  50% {
+    content: "A Web Developer";
+  }
+  100% {
+    content: "A Freelancer";
+  }
+}
+

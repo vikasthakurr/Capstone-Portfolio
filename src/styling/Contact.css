@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+.contact {
+  font-family: "JetBrains Mono", monospace;
+  background: #e4f26c;
+  height: 100vh;
+  position: relative;
+}
+.contact a {
+  font-size: 3.7rem;
+  position: absolute;
+  top: 50%;
+  left: 24%;
+  padding: 12px 60px;
+  border-radius: 6px;
+  text-decoration: underline;
+}
+.contact img {
+  position: absolute;
+  left: 46%;
+  top: 35%;
+  cursor: pointer;
+  animation: floating 1s ease infinite;
+  transform-style: preserve-3d;
+}
+.contact a:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+@keyframes floating {
+  from {
+    transform: translateY(0) translateX(0px);
+  }
+  to {
+    transform: translateY(-10px)translateX(-5px);
+  }
+}
