@@ -8,7 +8,7 @@
 .navbar {
   background: #e4f26c;
   font-family: "EB Garamond", serif;
-  font-style: italic;
+  
   color: #000;
 }
 .navbar .name-main {
@@ -21,6 +21,7 @@
   position: absolute;
   top: 35%;
   left: 24%;
+  font-style: italic;
 }
 .name-main .btn {
   padding: 12px 45px;
@@ -53,7 +54,7 @@
   font-size: 22px;
 }
 .nav-links ul li a:hover {
-  text-decoration: underline yellow;
+  text-decoration: underline green;
 }
 
 .change_content:after {
