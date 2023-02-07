@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Me from "./components/Me";
 import Work from "./components/Work";
 // import About from "./components/About";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 
 
 
@@ -13,8 +13,8 @@ const App = () => {
       <Navbar/>
        <Me />
       <Work />
-      {/* <About />
-      <Contact /> */}
+      {/* <About /> */}
+      <Contact />
     </>
    
   );

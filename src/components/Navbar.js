@@ -7,9 +7,9 @@ const Navbar = () => {
     <>
       <div className="navbar" id="home">
         <div className="name-main">
-          <h1>I am Vikas Thakur</h1>
+          <h1>I am <span className="change_content"></span></h1>
 
-          <a href={cv} target="_blank" className="btn">Download Resume</a>
+          <a href={cv} target="_blank" className="btn">Download My Resume</a>
         </div>
 
         <div className="nav-links">

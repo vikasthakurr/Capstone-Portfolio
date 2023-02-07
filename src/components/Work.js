@@ -17,8 +17,8 @@ const Work = () => {
                      <img className="im" src={img1} alt="" />
                   </div>
                   <div className="text">
-                     <h2 className="title-1">LPU RISC</h2><br />
-                     <p>Department of Robotics has offered me their website for developement from scratch. in this project i have used fundamental web technology like HTML,CSS and JavaScript.this website contains some amazing animation.</p>
+                     <h2 className="title-1">Lpu Risc</h2><br />
+                     <p>Department of Robotics has offered me their website for developement from scratch. in this project i have used fundamental web technology like HTML,CSS and JavaScript.this website contains animation</p>
                   </div>
                </div>
                <a href="https://github.com/vikasthakurr/LpuRISC.git" target="_blank" className="project-btn">View Project</a>

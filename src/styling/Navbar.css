@@ -6,13 +6,10 @@
 }
 
 .navbar {
-  background: #fff000;
-  /* height: 100vh;
-  width: 100%;
-   */
+  background: #e4f26c;
   font-family: "EB Garamond", serif;
   font-style: italic;
-  color: #fff;
+  color: #000;
 }
 .navbar .name-main {
   width: 100%;
@@ -20,22 +17,24 @@
   position: relative;
 }
 .name-main > h1 {
-  font-size: 5rem;
+  font-size: 7rem;
   position: absolute;
   top: 35%;
-  left: 31%;
+  left: 24%;
 }
 .name-main .btn {
-  padding: 10px 45px;
+  padding: 12px 45px;
   background: #fff;
   position: absolute;
   top: 60%;
   left: 40%;
   color: #000;
   border-radius: 45px;
+  font-size:19px;
 }
 .btn:hover {
-  background: #fff000;
+  background: green;
+  color: #fff;
 }
 
 .nav-links {
@@ -56,3 +55,21 @@
 .nav-links ul li a:hover {
   text-decoration: underline yellow;
 }
+
+.change_content:after {
+   content: "";
+   animation: changetext 5s infinite linear;
+   /* color: #000; */
+   color: green;
+ }
+ @keyframes changetext {
+   0% {
+     content: "Vikas Kumar";
+   }
+   50% {
+     content: "A Web Developer";
+   }
+   100% {
+     content: "A Freelancer";
+   }
+ }
