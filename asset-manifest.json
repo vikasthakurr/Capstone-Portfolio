@@ -1,20 +1,14 @@
 {
   "files": {
-    "main.css": "/Capstone-Portfolio/static/css/main.c22e3269.css",
-    "main.js": "/Capstone-Portfolio/static/js/main.92050841.js",
-    "static/media/7.png": "/Capstone-Portfolio/static/media/7.c07fb506013e3c3dae80.png",
-    "static/media/salon.jpg": "/Capstone-Portfolio/static/media/salon.03f1f75e5fb74ff4352e.jpg",
-    "static/media/order.jpg": "/Capstone-Portfolio/static/media/order.5116fc5aa900c5375553.jpg",
-    "static/media/risc.jpg": "/Capstone-Portfolio/static/media/risc.53bc0c5b18f8f16a1d6a.jpg",
-    "static/media/music.jpg": "/Capstone-Portfolio/static/media/music.820cf5e768279d78e1e4.jpg",
-    "static/media/pratyush.jpg": "/Capstone-Portfolio/static/media/pratyush.cb5ae5137ab7bd6dc551.jpg",
+    "main.css": "/Capstone-Portfolio/static/css/main.d5af0cb8.css",
+    "main.js": "/Capstone-Portfolio/static/js/main.225ff0a2.js",
     "static/media/Vikas_resume_one.pdf": "/Capstone-Portfolio/static/media/Vikas_resume_one.38794a3fdc54d75efb2e.pdf",
     "index.html": "/Capstone-Portfolio/index.html",
-    "main.c22e3269.css.map": "/Capstone-Portfolio/static/css/main.c22e3269.css.map",
-    "main.92050841.js.map": "/Capstone-Portfolio/static/js/main.92050841.js.map"
+    "main.d5af0cb8.css.map": "/Capstone-Portfolio/static/css/main.d5af0cb8.css.map",
+    "main.225ff0a2.js.map": "/Capstone-Portfolio/static/js/main.225ff0a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22e3269.css",
-    "static/js/main.92050841.js"
+    "static/css/main.d5af0cb8.css",
+    "static/js/main.225ff0a2.js"
   ]
 }
