@@ -8,7 +8,7 @@ import img3 from "../images/music.jpg";
 const Work = () => {
    return (
       <>
-         <div className="work-container">
+         <div className="work-container" id='work'>
             <h2 className="heading">My Work</h2>
             <div className="work">
 

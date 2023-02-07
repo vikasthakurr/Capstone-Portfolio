@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,500&display=swap");
 
 .work-container {
-  background: #e4f26c;
+  background: #fff000;
   height: 100vh;
   width: 100%;
   position: relative;
-  font-family: "Dancing Script", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 .heading {
@@ -13,7 +13,8 @@
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
-  
+  position: relative;
+  top: 5%;
 }
 .im {
   height: 200px;

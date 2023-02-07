@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styling/About.css";
-import pics from "../components/7.png";
-import pratyush from "../components/pratyush.jpg";
+// import pics from "../components/7.png";
+// import pratyush from "../components/pratyush.jpg";
 
 const About = () => {
   return (
@@ -16,13 +16,13 @@ const About = () => {
         </div>
         <div className="member">
           <div className="team-member">
-            <img src={pics} alt="Profile 1" />
+            {/* <img src={pics} alt="Profile 1" /> */}
             <h3>Vikas Thakur</h3>
             <p>React Js Developer <br />Team Lead</p>
             
           </div>
           <div className="team-member">
-            <img src={pratyush} alt="Profile 2" />
+            {/* <img src={pratyush} alt="Profile 2" /> */}
             <h3>Pratyush Mishra</h3>
             <p>React Js Developer</p>
           </div>

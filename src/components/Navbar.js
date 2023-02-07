@@ -1,34 +1,29 @@
-import React from 'react';
-import "../styling/Navbar.css";
-import { Link } from "react-router-dom";
-import resume from "../images/Vikas_resume_one.pdf";
+import React from "react";
+import "../styling/Navbar.css"
+import cv from "../images/Vikas_resume_one.pdf";
 
 const Navbar = () => {
   return (
     <>
-      <div className="hero">
+      <div className="navbar" id="home">
+        <div className="name-main">
+          <h1>I am Vikas Thakur</h1>
 
-        <h1>I am  <span className="change_content">
-        </span></h1>
-        <a className="know" href={resume} target="_blank"><i class="fas fa-long-arrow-alt-right"> 
-         </i>&nbsp;&nbsp;Download CV  </a>
-
-        <div className="navlinks">
-          <a href="https://github.com/vikasthakurr" target="_blank"><i className="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/vikasthakurr/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-          <a href="https://hashnode.com/@vikasthakurr" target="_blank"><i class="fas fa-pen"></i></a>
-          <a href="https://twitter.com/Vikas_thakurr" target="_blank"><i className="fa-brands fa-twitter"></i></a>
+          <a href={cv} target="_blank" className="btn">Download Resume</a>
         </div>
 
-        <div className="bottom-links">
-          <i className="fa-solid fa-house">&nbsp;&nbsp;&nbsp;<span>Home</span></i>
-          <i className="fa-solid fa-code">&nbsp;&nbsp;&nbsp;<span>Work</span></i>
-          <i className="fa-solid fa-user-secret">&nbsp;&nbsp;&nbsp;<span>Me</span></i>
-          <i className="fa-solid fa-phone">&nbsp;&nbsp;&nbsp;<span>Contact</span></i>
+        <div className="nav-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#me">Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
       </div>
     </>
-  )
-}
 
-export default Navbar
+  );
+
+}
+export default Navbar;

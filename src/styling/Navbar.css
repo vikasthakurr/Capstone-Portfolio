@@ -1,89 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
-
-.hero {
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,500&display=swap");
+* {
+  /* font-family: "EB Garamond", serif; */
   margin: 0;
   padding: 0;
-  font-family: "Dancing Script", cursive;
 }
-a {
-  color: #000;
+
+.navbar {
+  background: #fff000;
+  /* height: 100vh;
+  width: 100%;
+   */
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  color: #fff;
 }
-.hero {
-  background: rgb(228, 242, 108);
-  width: 100vw;
+.navbar .name-main {
+  width: 100%;
   height: 100vh;
-  overflow: hidden;
+  position: relative;
 }
-
-.hero h1 {
-  position: absolute;
-  top: 42%;
-  left: 30%;
+.name-main > h1 {
   font-size: 5rem;
-  font-family: "Dancing Script", cursive;
-  word-spacing: 6px;
-  overflow-wrap: break-word;
-}
-.know {
   position: absolute;
-  top: 62%;
+  top: 35%;
+  left: 31%;
+}
+.name-main .btn {
+  padding: 10px 45px;
+  background: #fff;
+  position: absolute;
+  top: 60%;
   left: 40%;
-  font-size: 1.2rem;
-  padding: 6px 25px;
-  border: 2px solid #000;
-  border-radius: 10px;
-  
-  
-}
-.know:hover{
-cursor: pointer;
-background:#000;
-color: #fff;
-}
-.navlinks {
-  display: grid;
-  position: absolute;
-  top: 31%;
-  left: 94%;
-  gap: 60px;
-}
-.navlinks i {
-  font-size: 2rem;
-}
-.navlinks i:hover {
-  cursor: pointer;
-  transform: translate3d(-5px, 6px, 10px);
-}
-
-.bottom-links {
-  position: absolute;
-  top: 31%;
-  left: 3%;
-  gap: 70px;
-  display: grid;
-  /* font-size: 1.5rem; */
-  position: fixed;
-}
-.bottom-links i:hover {
-  cursor: pointer;
-  transform: translateY(-9px);
-}
-
-/* animation start here */
-.change_content:after {
-  content: "";
-  animation: changetext 5s infinite linear;
   color: #000;
+  border-radius: 45px;
 }
-@keyframes changetext {
-  0% {
-    content: "Vikas Thakur";
-  }
-  50% {
-    content: "A Web Developer";
-  }
-  100% {
-    content: "A Freelancer";
-  }
+.btn:hover {
+  background: #fff000;
 }
 
+.nav-links {
+  width: 100%;
+}
+.nav-links ul {
+  display: flex;
+  float: right;
+  position: absolute;
+  top: 80%;
+  left: 33%;
+}
+.nav-links ul li {
+  margin: 35px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.nav-links ul li a:hover {
+  text-decoration: underline yellow;
+}
