@@ -10,7 +10,8 @@ const Navbar = () => {
 
         <h1>I am  <span className="change_content">
         </span></h1>
-        <a className="know" href={resume} target="_blank"><i class="fas fa-long-arrow-alt-right"></i>&nbsp;&nbsp;Download CV  </a>
+        <a className="know" href={resume} target="_blank"><i class="fas fa-long-arrow-alt-right"> 
+         </i>&nbsp;&nbsp;Download CV  </a>
 
         <div className="navlinks">
           <a href="https://github.com/vikasthakurr" target="_blank"><i className="fa-brands fa-github"></i></a>
@@ -21,11 +22,9 @@ const Navbar = () => {
 
         <div className="bottom-links">
           <i className="fa-solid fa-house">&nbsp;&nbsp;&nbsp;<span>Home</span></i>
-          <Link to="/Work"><i className="fa-solid fa-code">&nbsp;&nbsp;&nbsp;<span>Work</span></i></Link>
-          <Link to="/Me"><i className="fa-solid fa-user-secret">&nbsp;&nbsp;&nbsp;<span>Me</span></i></Link>
-          <Link to="/Contact"><i className="fa-solid fa-phone">&nbsp;&nbsp;&nbsp;<span>Contact</span></i></Link>
-
-
+          <i className="fa-solid fa-code">&nbsp;&nbsp;&nbsp;<span>Work</span></i>
+          <i className="fa-solid fa-user-secret">&nbsp;&nbsp;&nbsp;<span>Me</span></i>
+          <i className="fa-solid fa-phone">&nbsp;&nbsp;&nbsp;<span>Contact</span></i>
         </div>
       </div>
     </>
